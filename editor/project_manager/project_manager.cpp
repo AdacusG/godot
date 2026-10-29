@@ -1663,7 +1663,7 @@ ProjectManager::ProjectManager() {
 			hb->add_child(create_btn);
 
 			import_btn = memnew(Button);
-			import_btn->set_text(TTRC("Import"));
+			import_btn->set_text(TTRC("Import (DEMO)"));
 			import_btn->set_shortcut(ED_SHORTCUT("project_manager/import_project", TTRC("Import Project"), KeyModifierMask::CMD_OR_CTRL | Key::I));
 			import_btn->connect(SceneStringName(pressed), callable_mp(this, &ProjectManager::_import_project));
 			hb->add_child(import_btn);
